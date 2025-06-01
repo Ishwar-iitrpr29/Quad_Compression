@@ -4,15 +4,6 @@ from PIL import Image
 from image_compressor import ImageCompressor
 
 
-# def compress_image_data(
-#         image_data: np.array,
-#         iterations: int = 20000,
-#         detail_error_threshold: float = 10) -> np.array:
-#     """Compress image data and return compressed numpy array"""
-#     compressor = ImageCompressor(image_data)
-#     compressor.add_detail(iterations, detail_error_threshold)
-#     return compressor.draw()
-
 
 def compress_and_encode_image_data(
         image_data: np.array,

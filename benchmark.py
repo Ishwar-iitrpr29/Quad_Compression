@@ -103,18 +103,4 @@ def benchmark_image(image_path: str, iterations: int, output_path: str):
     print(f"Size reduction: {size_reduction_percent:.2f}%")
     print("-" * 50)
 
-
-# if __name__ == '__main__':
-#     # Example usage
-#     iterations = 20000
-#     benchmark_image("input/branch.jpg", iterations, "output/branch_compressed.qid")
-    # benchmark_image("input/mountain.jpg", iterations, "output/mountain_compressed.qid")
-    # benchmark_image("input/night.jpg", iterations, "output/night_compressed.qid")
-    # benchmark_image("input/penguins.jpg", iterations, "output/penguins_compressed.qid")
-    # benchmark_image("input/plant.jpg", iterations, "output/plant_compressed.qid")
-    # benchmark_image("input/squares.png", iterations, "output/squares_compressed.qid")
-    # benchmark_image("input/hiking.jpg", iterations, "output/hiking_compressed.qid")
-    # benchmark_image("input/sunset.jpg", iterations, "output/sunset_compressed.qid")
-    # benchmark_image("input/computer.jpg", iterations, "output/computer_compressed.qid")
-
 # TODO: Add totally empty image to the examples
